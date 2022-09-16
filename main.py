@@ -1,97 +1,97 @@
-# remember to fork this repl into your own account
-# create a new github project for this. call it week 4 review : lists, strings manipulations, tuples, substrings
+# # remember to fork this repl into your own account
+# # create a new github project for this. call it week 4 review : lists, strings manipulations, tuples, substrings
 
-##############################################################################################################
-# basic review
-# Find and display on the screen which character occupies the fifth position within the following word:
-# comp="computer"
-# print(comp[-1])
-# Find and display the index of the last occurrence of the word "practice" in the following sentence:
-# phrase="In theory, theory and practice are the same. In practice, they are not."
-# print(phrase.rindex("practice"))
-###############################################Review############################################################
-#####################################challenge 1################################################################
-# Create a list with 5 elements, inside the variable my_list. You can include strings, booleans, numbers, etc.
+# ##############################################################################################################
+# # basic review
+# # Find and display on the screen which character occupies the fifth position within the following word:
+# # comp="computer"
+# # print(comp[-1])
+# # Find and display the index of the last occurrence of the word "practice" in the following sentence:
+# # phrase="In theory, theory and practice are the same. In practice, they are not."
+# # print(phrase.rindex("practice"))
+# ###############################################Review############################################################
+# #####################################challenge 1################################################################
+# # Create a list with 5 elements, inside the variable my_list. You can include strings, booleans, numbers, etc.
 
-# Add the element "motorcycle" to the following list of means of transportation:
-# my_list=("Hamburger","5","Lego","elements","men")
-# transportation_means = ["plane", "car", "ship", "bicycle"]
-# transportation_means.append("motorcycle")
-# print(transportation_means)
-# transportation_means.remove("car")
-# print(transportation_means)
-# newTrans=transportation_means.pop()
-# print("my new trans is " +newTrans)
-# transportation_means.insert(1,"Tesla")
-# transportation_means.insert(2,"Camaro")
-# print(transportation_means)
+# # Add the element "motorcycle" to the following list of means of transportation:
+# # my_list=("Hamburger","5","Lego","elements","men")
+# # transportation_means = ["plane", "car", "ship", "bicycle"]
+# # transportation_means.append("motorcycle")
+# # print(transportation_means)
+# # transportation_means.remove("car")
+# # print(transportation_means)
+# # newTrans=transportation_means.pop()
+# # print("my new trans is " +newTrans)
+# # transportation_means.insert(1,"Tesla")
+# # transportation_means.insert(2,"Camaro")
+# # print(transportation_means)
 
 
-# You must not modify the already supplied line of code, but must use the appropriate list method to add a new element.
+# # You must not modify the already supplied line of code, but must use the appropriate list method to add a new element.
 
-# here are two lists:
-# luckyNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15]
-# friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
-# # instructions:
-# ######join both lists together in a new list
-# luckyNumbers.extend(friends)
-# ###### print the new list out
-# print(luckyNumbers)
-# ###### print out the first item in the list
-# print(luckyNumbers[0])
-# ###### remove the last item of the new list
-# luckyNumbers.pop()
-# ###### print the new list out without the last item
-# print(luckyNumbers)
-# ###### add three more items to the end of the list
-# list3=("Billy","Bob","Joe")
-# luckyNumbers.extend(list3)
-# ###### print the last item in the new list
-# print(luckyNumbers)
-# ###### sort the list
-# friends.sort()
-# ###### find a way to insert a new item at the 3rd position of the list
-# luckyNumbers.insert(2,"Egg")
-# ###### print the new list out
-# print(luckyNumbers)
-# ##### reverse the list
-# luckyNumbers.reverse()
-# ###### print the new list out
-# print(luckyNumbers)
-# ###### print out the length of the new list
-# print(len(luckyNumbers))
-#####################################challenge 2#######################################################
-# Join the following list into a string, separating each item with a space. Use the appropriate list/string method, and display the result.
-word_list = ["Simple", "is", "better", "than", "complex."]
-print(" ;".join(word_list))
-# Print the following text in uppercase, using the specific string method:
+# # here are two lists:
+# # luckyNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15]
+# # friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
+# # # instructions:
+# # ######join both lists together in a new list
+# # luckyNumbers.extend(friends)
+# # ###### print the new list out
+# # print(luckyNumbers)
+# # ###### print out the first item in the list
+# # print(luckyNumbers[0])
+# # ###### remove the last item of the new list
+# # luckyNumbers.pop()
+# # ###### print the new list out without the last item
+# # print(luckyNumbers)
+# # ###### add three more items to the end of the list
+# # list3=("Billy","Bob","Joe")
+# # luckyNumbers.extend(list3)
+# # ###### print the last item in the new list
+# # print(luckyNumbers)
+# # ###### sort the list
+# # friends.sort()
+# # ###### find a way to insert a new item at the 3rd position of the list
+# # luckyNumbers.insert(2,"Egg")
+# # ###### print the new list out
+# # print(luckyNumbers)
+# # ##### reverse the list
+# # luckyNumbers.reverse()
+# # ###### print the new list out
+# # print(luckyNumbers)
+# # ###### print out the length of the new list
+# # print(len(luckyNumbers))
+# #####################################challenge 2#######################################################
+# # Join the following list into a string, separating each item with a space. Use the appropriate list/string method, and display the result.
+# word_list = ["Simple", "is", "better", "than", "complex."]
+# print(" ;".join(word_list))
+# # Print the following text in uppercase, using the specific string method:
 
-text1 = "Especially in electronic communications, writing in all caps is equivalent to yelling."
-print(text1.upper())
-#substrings
-# Take every third character starting from the ninth to the end of the sentence, and print the result.
+# text1 = "Especially in electronic communications, writing in all caps is equivalent to yelling."
+# print(text1.upper())
+# #substrings
+# # Take every third character starting from the ninth to the end of the sentence, and print the result.
 
-text2 = "Never trust a computer you can't throw out a window"
-print(text2[8::3])
-# Reverses the position of all the characters in the following sentence and displays the result on the screen.
+# text2 = "Never trust a computer you can't throw out a window"
+# print(text2[8::3])
+# # Reverses the position of all the characters in the following sentence and displays the result on the screen.
 
-text3 = "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
-print(text3[::-1])
-# Extract the first word of the following sentence using slicing, and display it on the screen:
-sentence="Controlling complexity is the essence of programming"
-all_words=sentence.split()
-print(all_words)
-print(all_words[0])
-# create a text input that asks for choice of food
-tfood=input("What food would you like?")
-#create an empty list variable called food
-food=[]
-# add 3 items from the user into the empty list
-food.append(tfood)
-food.append(tfood)
-food.append(tfood)
-#print out the menu list
-print(food)
+# text3 = "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
+# print(text3[::-1])
+# # Extract the first word of the following sentence using slicing, and display it on the screen:
+# sentence="Controlling complexity is the essence of programming"
+# all_words=sentence.split()
+# print(all_words)
+# print(all_words[0])
+# # create a text input that asks for choice of food
+# tfood=input("What food would you like?")
+# #create an empty list variable called food
+# food=[]
+# # add 3 items from the user into the empty list
+# food.append(tfood)
+# food.append(tfood)
+# food.append(tfood)
+# #print out the menu list
+# print(food)
 ##############################################################################################################
 # what are tuples?
 # exactly the same thing as an array only it is immutable, once you define the tuple, you cannot change it or modify it
@@ -100,10 +100,11 @@ print(food)
 #example
 coordinates = (4, 5)
 # get the first element in the above tuple
+# print(coordinates[0])
 # lets make this a multidimensional array
 coordindates2 = [(4, 5), (6, 7), (80, 34)]
 #get the second element of the second item in coordinates2
-
+print(coordindates2[1][1])
 # we use parentheses not [] in tuples
 my_tuple1 = (1, 2, 3, 4)
 # get the second item in the tuple1 above
